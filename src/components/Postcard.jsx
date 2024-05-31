@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 function Postcard({ $id, title, featuredImage }) {
   //$id id appwrite variable
-
   return (
     <Link to={`/post/${$id}`}>
       <div className="w-full bg-gray-100 rounded-xl p-4">
